@@ -1,0 +1,121 @@
+main {
+  background-color: #242582;
+  height: 4000px;
+}
+
+#logoImage {
+  width: 45px;
+  margin-left: 10px;
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.intro {
+  height: 200px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#welcomeSign {
+  padding: 20px;
+  font-family: "Yatra One", cursive;
+  font-size: 25px;
+}
+
+.full-name {
+  padding: 10px;
+  margin-left: 20px;
+}
+
+#firstName {
+  color: #5CDB95;
+}
+
+#lastName {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: rgb(186, 30, 30);
+  transition: 0.7s;
+}
+
+#nickName {
+  font-family: "The Nautigal", cursive;
+  font-size: 70px;
+  color: orange;
+}
+
+.coding-image {
+  /*  background-color: red; */
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 544px) {
+  .coding-image {
+    overflow: hidden;
+    direction: rtl;
+  }
+}
+
+#codingImage {
+  padding: 10px;
+}
+
+.about-me {
+  /*  background-color: red; */
+  border: 2px dotted green;
+  height: 430px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: block;
+}
+.about-me-title {
+  margin-right: 50px;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 30px;
+  font-family: "Arima", cursive;
+}
+.about-me-des {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px;
+  height: 100px;
+  font-size: 20px;
+  font-family: "Yatra One", cursive;
+}
+
+#techStack, #projects {
+  color: orange;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  text-align: center;
+  /* Height of the footer */
+  background: rgb(11, 125, 181);
+  z-index: 4;
+}
+
+footer > p {
+  margin-top: 20px;
+}
+
+#navbar {
+  position: sticky;
+}
+
+@media only screen and (max-width: 520px) {
+  .about-me {
+    height: 550px;
+  }
+}
