@@ -1,5 +1,4 @@
 
-
 .project-title{
 
     height: 100px;
@@ -13,3 +12,41 @@
 
 
 }
+
+#main {
+    background-color: #242582;
+    height: 3000px;
+}
+
+
+.project-card{
+    border: 2px dotted rgb(220, 24, 24);
+    height: 430px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    
+    display: block;
+
+    &-title {
+            margin-right: 50px;
+            height: 100px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 30px;
+            font-family: 'Arima', cursive;
+    
+        }
+    
+        &-des {
+            display: block;
+            justify-content: center;
+            align-items: center;
+            padding: 0 30px;
+            height: 100px;
+            font-size: 20px;
+            font-family: 'Yatra One', cursive;
+        }
+}
+
+
+

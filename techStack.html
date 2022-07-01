@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/logocircle.png">
     <title> Angelo </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -14,7 +15,8 @@
     </script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
     </script>
-    <link rel="stylesheet" href="./modules/home.css" </head>
+    <link rel="stylesheet" href="./modules/home.css" />
+    <link rel="stylesheet" href="./modules/tech.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +26,12 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Arima:wght@100&family=Heebo&family=Roboto:wght@300&family=Splash&family=The+Nautigal&family=Yatra+One&display=swap"
         rel="stylesheet">
+    <script src="https://kit.fontawesome.com/9ae668a2d7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+
+    </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -39,18 +47,96 @@
         <div class="collapse navbar-collapse items" id="navbarText">
             <ul class="navbar-nav mr-right">
                 <li class="nav-item active">
-                    <a class="nav-link" href="./index.html"> Home <span class="sr-only">(current)</span> </a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="./techStack.html"> Tech Stack </a>
+                    <a class="nav-link nav-text" href="./index.html"> Home <span class="sr-only">(current)</span> </a>
                 </li>
                 <li class="nav-item active ">
-                    <a class="nav-link" href="./projects.html"> Projects</a>
+                    <a class="nav-link nav-text" href="./techStack.html"> Tech Stack </a>
+                </li>
+                <li class="nav-item active ">
+                    <a class="nav-link nav-text" href="./projects.html"> Projects</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <main>  
+   
+    <main id="main">  
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="tech-stack">
+                        <div class="tech-stack-title">
+                            <h3> Front End:  </h3>
+                        </div>
+                        <div class="tech-stack-des">
+                            <p> Here are front-end technologies I have worked with: 
+                            </p>
+                                <a> <i class="fa fa-html5" aria-hidden="true" style="font-size:60px;color:rgb(245, 110, 0); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-css3" aria-hidden="true" style="font-size:60px;color:rgb(22, 25, 240); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-js" aria-hidden="true"
+                                        style="font-size:60px;color:rgb(211, 240, 22); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-sass" aria-hidden="true"
+                                        style="font-size:60px;color:rgb(240, 22, 196); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-react" aria-hidden="true"
+                                        style="font-size:60px;color:rgb(22, 73, 240); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-cc-stripe" aria-hidden="true"
+                                        style="font-size:60px;color:rgb(255, 255, 255); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a> <i class="fa fa-font-awesome" aria-hidden="true" 
+                                style="font-size:60px;color:rgb(15, 96, 227); cursor: pointer; margin:20px;"></i>
+                                </a>
+                                <a><i class="bi bi-bootstrap-fill" style="font-size:60px;color:rgb(91, 6, 164); cursor: pointer; margin:20px;"></i></a>
+                                <image src="./images/jquery_logo_icon.png" alt="jquery" width="70" height="70" style="background-color:white; padding:10px; border-radius: 20%;"/>
+                                <image src="./images/redux.svg" alt="nodejs" width="60" height="70" style="margin: 20px;" />
+                                <image src="./images/gatsby.svg" alt="nodejs" width="60" height="70" style="margin: 20px;" />
+                                <image src="./images/nextjs-2.svg" alt="nodejs" width="80" height="70" style="margin: 20px; background-color:white; padding:10px; border-radius: 20%; " />
+                                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="tech-stack">
+                        <div class="tech-stack-title">
+                            <h3> Back End : </h3>
+                        </div>
+                        <div class="tech-stack-des">
+                            <image src="./images/nodejs-icon.svg" alt="nodejs" width="70" height="70" style="margin: 20px;"/>
+                            <image src="./images/mongodb-icon-1.svg" alt="mongodb" width="70" height="70" style="margin: 20px;" />
+                            <image src="./images/firebase-1.svg" alt="nodejs" width="70" height="70" style="margin: 20px; " />
+                            <image src="./images/express-109.svg" alt="nodejs" width="80" height="70" style="margin: 20px; background-color: rgb(25, 230, 35); padding:10px; border-radius:20%;" />
+                            <image src="./images/socket-io.svg" alt="nodejs" width="70" height="70" style="margin: 20px; " />
+                            <image src="./images/postman.svg" alt="nodejs" width="70" height="70" style="margin: 20px; " />
+                            <image src="./images/postgresql.svg" alt="nodejs" width="70" height="70" style="margin: 20px; " />
+                            <image src="./images/graphql-logo-2.svg" alt="nodejs" width="70" height="70" style="margin: 20px; " />
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <div class="tech-stack">
+                        <div class="tech-stack-title">
+                            <h3> Others: </h3>
+                        </div>
+                        <div class="tech-stack-des">
+                            <a href="https://github.com/Ningthangom" target="_blank"><i class="fa fa-github"
+                                    style="font-size:60px;color:rgb(236, 241, 237); cursor: pointer;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"

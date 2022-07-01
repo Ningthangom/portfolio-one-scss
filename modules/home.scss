@@ -1,7 +1,12 @@
 main{
      background-color: #242582;
-     height: 4000px;
+     height: 1800px;
+
+    @media only screen and (max-width: 512px) {
+            height: 8000px;
+        }
 }
+
 
 
 #logoImage{
@@ -83,6 +88,7 @@ main{
         justify-content: flex-start;
         align-items:center;
         padding: 30px;
+        color: white;
      font-family: 'Arima', cursive;
        
     }
@@ -105,6 +111,9 @@ main{
     color: orange;
 }
 
+p{
+    color: white;
+}
 
 
 // footer not working 

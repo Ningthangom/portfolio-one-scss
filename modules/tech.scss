@@ -1,0 +1,57 @@
+ #main{
+    background-color:#001f3f;
+ }
+.tech-stack{
+    /*  background-color: red; */
+    border: 2px dotted green;
+    margin-top: 50px;
+    height: 430px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+    display: block;
+
+
+    &-title {
+        margin-right: 50px;
+        height: 100px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 30px;
+        font-family: 'Arima', cursive;
+
+    }
+
+    &-des {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        padding: 0 30px;
+        height: 100px;
+        font-size: 20px;
+        font-family: 'Yatra One', cursive;
+    }
+
+    p{
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+
+
+    @media only screen and (min-width: 512px) and (max-width: 986px){
+        height: 650px;
+    }
+     @media only screen and (max-width: 512px){
+             height: 900px;
+    }
+
+}
+
+
+.nav-text{
+    color: orange;
+    font-weight: bold;
+}
+
